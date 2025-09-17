@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    /* margin: 0; */
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #5581aa;
+}
+
+.content{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-box{
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.content-box img{
+    width: 150px;
+}
+.txt a{
+    text-decoration: none;
+    color: black;
+}
+.txt a:hover{
+    color: #FFF;
+
+}
+
+.empresas{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.empresas p{
+    
+    text-align: center;
+    width: 600px;
+}
+.empresas img{
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+}
+.empresas .python{
+    width: 150px;
+    margin-top: 7rem;
+}
+footer {
+    
+    color: #FFF;
+
+}
